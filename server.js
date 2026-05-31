@@ -46,7 +46,7 @@ app.listen(port, () => {
     }
 
     console.log(`\n-----------------------------------------------`);
-    console.log(`🚀 Aventis Katalog Sunucusu Başlatıldı!`);
+    console.log(`🚀 Dijital Katalog Sunucusu Başlatıldı!`);
     console.log(`\n🏠 Yerel Erişim:   http://localhost:${port}`);
     console.log(`🌐 Ağ Erişimi:     http://${networkIp}:${port} (Tablet/Telefon için)`);
     console.log(`-----------------------------------------------\n`);

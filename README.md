@@ -1,11 +1,11 @@
-# ⚜️ Aventis - Premium Digital Catalog Flipbook
+# ⚜️ Premium Digital Catalog Flipbook
 
 [![Vite](https://img.shields.io/badge/Vite-8.0.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
 [![Express](https://img.shields.io/badge/Express-4.18.2-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
 [![License](https://img.shields.io/badge/License-MIT-4CAF50?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Aventis is a high-performance, client-first digital brochure and interactive catalog viewer designed for premium showrooms, tablet-based kiosks, and modern web environments. Built on top of a highly optimized skeletal structure, it blends state-of-the-art canvas rendering, realistic 3D-like page-flipping physics, and instant localized search query indexing.
+This project is a high-performance, client-first digital brochure and interactive catalog viewer designed for premium showrooms, tablet-based kiosks, and modern web environments. Built on top of a highly optimized skeletal structure, it blends state-of-the-art canvas rendering, realistic 3D-like page-flipping physics, and instant localized search query indexing.
 
 ---
 
@@ -32,7 +32,7 @@ graph TD
     classDef client fill:#1a1a1a,stroke:#e6af2e,stroke-width:1.5px,color:#fff;
     classDef storage fill:#0a0a0a,stroke:#34c759,stroke-width:1px,color:#fff;
 
-    A[Client Browser / Kiosk UI]:::main --> B[Aventis Core App Controller]:::client
+    A[Client Browser / Kiosk UI]:::main --> B[Core App Controller]:::client
     
     %% Loading modes
     B --> C[Static Loader]:::client
@@ -101,7 +101,7 @@ Open your browser and navigate to `http://localhost:3000`.
 ```text
 ├── public/                 # Static Assets Folder
 │   ├── catalogs/           # Catalog Directories (WebP pages, manifests)
-│   │   └── cat_demo/       # Aventis Premium Demo Catalog
+│   │   └── cat_demo/       # Premium Demo Catalog
 │   ├── lib/                # Static External Libraries
 │   ├── emblem.svg          # Luxury Minimalist Emblem SVG
 │   ├── logo.svg            # Horizontal Luxury Wordmark SVG
